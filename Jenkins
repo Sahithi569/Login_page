@@ -13,10 +13,10 @@ bat label: '',script: 'mvnw compile'
 echo "test successful";
 }
 }
-stage ('Build") {
+stage ('Build') {
 steps{
-bat label: '', script: 'mvnw clean'
-bat label: '', script: 'mvnw package'
+bat label: ' ', script: 'mvnw clean'
+bat label: ' ', script: 'mvnw package'
 echo "build successful
 }
 }
